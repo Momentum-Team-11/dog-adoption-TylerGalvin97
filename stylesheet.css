@@ -1,0 +1,170 @@
+header {
+    background-color: #004175;
+    border-color: #89DEEF;
+    color: white;
+    font-family: "Open Sans";
+    padding: 1.5rem;
+    padding-left: 4rem;
+}
+
+main {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: rem;
+}
+
+body {
+    font-family: "Open Sans";
+    margin: 0px;
+}
+}
+
+h2 {
+    font-family: "Open Sans";
+}
+
+
+.big-dog h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.1rem;
+    font-family: "Oswald";
+}
+
+.interest {
+    font-family: "Open Sans";
+    padding-bottom: .5rem;
+}
+
+.row1 {
+    display: flex; flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row1bean {
+
+
+}
+
+.row1zelda{
+
+}
+
+.row1baby {
+
+}
+
+.row2 {
+
+}
+
+.row2tom{
+}
+
+.row2marco{
+
+}
+
+.row2shack{
+
+}
+
+.row3 {
+
+}
+
+.row3midge{
+
+}
+
+.row3lady{
+
+}
+
+.row3mina{
+
+}
+
+li {
+    display: inline-block;
+    background-color: #89DEEF;
+    border-radius: 30px;
+    padding: 3px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+ul {
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+.cell img{
+    width: 100%;
+}
+
+.cell {
+    width: 32%;
+    margin-right: 5px;
+    margin-bottom: 2.7rem;
+}
+
+.footer-row {
+    display: flex; 
+    flex-direction: row;
+}
+
+.donate {
+  
+    
+    background: 
+      /* top, transparent red */ 
+      linear-gradient(
+        rgba(166, 168, 240, 0.60), 
+        rgba(166, 168, 240, 0.60)
+      ),
+      /* bottom, image */
+      url(./starter_files/images/donate.jpg);
+      background-size: cover;
+  }
+
+.volunteer {
+    background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(166, 168, 240, 0.60), 
+      rgba(166, 168, 240, 0.60)
+    ),
+    /* bottom, image */
+    url(./starter_files/images/volunteer.jpg);
+    background-size: cover;
+}
+
+.location {    background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(166, 168, 240, 0.60), 
+      rgba(166, 168, 240, 0.60)
+    ),
+    /* bottom, image */
+    url(./starter_files/images/location.png);
+    background-size: cover;
+}
+
+.box {
+    flex: 1 1 auto;
+    display: flex; justify-content: center;
+    line-height: 15rem;
+    background-color: #A6A9F0;
+
+}
+
+.box h3 {
+    font-size: 2.5rem;
+    font-family: "Oswald";
+    font-weight: normal;
+    color: white;
+}
+
+.

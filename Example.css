@@ -1,0 +1,50 @@
+#container{
+    display: flex;
+    flex-direction: row;  < A B C --> creates a row from left to right >
+    flex-direction: row-reverse; < C B A --> flips row from right to left 
+    flex-direction: column; < A
+                              B     --> creates a column from top to bottom
+                              C
+    flex-direction: column-reverse; < C
+                                      B    --> creates a column from bottom to top
+                                      A
+
+    justify-content: flex-start (default); ABC is placed to the left of the screen,
+                      if row is reversed, flex-start will be placed right of screen
+    justify-content: flex-end; ABC is placed to the right of the screen, 
+                      if row is reversed, flex-end will be placed on the left
+    justify-content: Center; ABC will be placed in the middle of the row 
+    justify-content: space-between; ABC will have even space BETWEEN them
+    justify-content: space-around; ABC will have even space AROUND them
+
+
+    align-items: flex-start; ABC will be placed at the top of the screen
+    align-items: flex-end; ABC will be placed at the bottom of the screen
+    align-items: center; ABC will be placed in the middle of the screen
+    align-items: baseline; ABC will display at the baseline of the container
+    align-items: stretch; ABC are stretched to fit the container
+
+    align-self: has the same properties as align-items but only moves one item.
+                that item is determined by the container 
+
+    flex-wrap: nowrap; Every item is fit to a single line
+    flex-wrap: wrap; Items wrap around to additional lines
+    flex-wrap: wrap-reverse; Items wrap around to additional lines in reverse
+
+    flex-direction + flex-wrap = flex-flow --> you can add one property from flex-direction
+                                                and flex-wrap to make a flex-flow. 
+
+    align-content: to set how MULTIPLE lines are spaced apart from each other
+    flex-start: Lines are packed at the top of the container.
+    flex-end: Lines are packed at the bottom of the container.
+    center: Lines are packed at the vertical center of the container.
+    space-between: Lines display with equal spacing between them.
+    space-around: Lines display with equal spacing around them.
+    stretch: Lines are stretched to fit the container.
+
+    *align-content determines the spacing between lines, 
+    while align-items determines how the items as a whole are aligned within the container. 
+    When there is only one line, align-content has no effect.*
+
+
+}
